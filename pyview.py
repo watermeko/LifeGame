@@ -11,7 +11,7 @@ game = model.LifeGame(height, width)
 
 def start_handler(event):
     global willUpdate
-    willUpdate = True
+    willUpdate = not willUpdate
     update()
 
 def random_handler(event):

@@ -13,7 +13,7 @@ class LifeGame:
     def load_map(self, map,x=75,y=75):
         for i in range(0,len(map)):
             for k in range(0,len(map[i])):
-                self.map[y+i][x+k] = map[i][k]
+                self.map[x+k][y+i] = map[i][k]
 
     def clear_map(self):
         self.map = [[0 for i in range(self.width)] for j in range(self.height)]

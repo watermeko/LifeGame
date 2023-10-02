@@ -1,4 +1,5 @@
-# LifeGame - Python实现康威生命游戏
+# LifeGame
+用来研究研究pyscript
 
 # 康威生命游戏
 ## 规则
